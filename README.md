@@ -6,7 +6,7 @@
 ![](https://img.shields.io/docker/automated/stoakes/mailer.svg)
 ![](https://images.microbadger.com/badges/image/stoakes/mailer.svg)
 
-This image is a configuration free Debian jessie running postfix image. It provides a SMTP configured for websites to send emails from any container connected to the docker network.
+This image is a configuration free Debian stretch running postfix image. It provides a SMTP configured for websites to send emails from any container connected to the docker network.
 
 Contrary to other available images, it has a low number of layer and is designed to be as small as possible. (Even though we are using Debian)
 
@@ -50,7 +50,7 @@ Then use the mailer in your web container (pseudo code)
 
 ## Features
 
-Running on Debian Jessie
+Running on Debian Stretch
 
  * Postfix
  * Syslog-ng to retrieve postfix logs
